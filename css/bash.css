@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+} 
+
+#space{
+	padding-top: 2%;
+	padding-left: 2%;
+}
+.word{
+	color:#7a0099;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 90%;
+  line-height: 1.5;
+  background-image: linear-gradient(to bottom, #7a0099 0%, #000000 100%);
+}
+
+
+.browser {
+  height: 75vh;
+  width: 65vw;
+  border-radius: 10px 30px;
+  background: #333;
+  box-shadow: 0 10px 45px -5px rgba(0,0,0,0.8)
+}
+
+.close {
+   background: #fc635d;
+}
+
+.min {
+   background: #fdbc40;
+ }
+
+.max {
+   background: #34c84a;
+}
+
+.browser,
+.browserbar {
+  border-radius: 5px 5px 0 0;  
+}
+
+.browserbar {
+  height: 30px;
+  background: #f9f9f3;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.browserbar > button {
+  border-radius: 50%;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+.footer{
+  text-align: center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
